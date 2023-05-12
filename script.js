@@ -62,21 +62,4 @@ for(let i = 1; i < 6; i++)
         }
     });
 
-
-let vid = document.getElementById("vid")
-vid.addEventListener('progress', function() {
-    if( vid.buffered.length === 0 ){
-       vid.load();
-       return ;
-    }
- 
-    var loadedPercentage = vid.buffered.end(0) / vid.duration;
-    if(loadedPercentage > 1){
-       start()
-    } else {
-       vid.currentTime=vid.buffered.end(0);
-    }
- });
-
-
 document.getElementById("send").onclick = () => {window.location.href = "https://www.youtube.com/watch?v=g3K9jNZu5Z0&ab_channel=Boba"}
