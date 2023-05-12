@@ -1,0 +1,159 @@
+body 
+{
+  width: 100%;
+  height: 100%;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:large;
+  background-image: url(back.webp);
+  background-size:cover;
+}
+
+html
+{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+fieldset
+{
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border-color: rgb(0, 102, 97);
+}
+
+label
+{
+  text-align: center;
+}
+
+input
+{
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.3em;
+  border-color: rgb(0, 102, 97);;
+  outline: 0;
+  transition: border linear 0.5s;
+  color: rgb(255, 255, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:large;
+  background-color: transparent;
+  border-style:double;
+}
+
+input:focus
+{
+  border-color: red;
+}
+
+button
+{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size:medium;
+  border-radius: 5px;
+  padding: 0.4rem;
+  width: auto;
+  background-color:transparent;
+  color: white;
+  transition: background linear 0.5s;
+  border-color: rgb(0, 102, 97);
+  border-style:double;
+}
+
+button:hover
+{
+  background-color: rgb(0, 53, 50);
+}
+
+img
+{
+  border-radius: 5px;
+  padding: 0.5rem 0.1rem 0.1rem 0.1rem;
+  width: auto;
+}
+
+audio
+{
+  width: 95%;
+  padding-bottom: 2rem;
+}
+
+#mainform
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  align-content: space-between;
+  border: 1px rgb(65, 65, 65) solid;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.controlsForm
+{
+  margin-block: 1rem;
+}
+
+#q1
+{
+  display: flex;
+}
+
+#q2
+{
+  display: none;
+}
+
+#q3
+{
+  display: none;
+}
+
+#q4
+{
+  display: none;
+}
+
+#q5
+{
+  display: none;
+}
+
+#hint
+{
+  text-align: center;
+  display: none;
+}
+
+#hint5
+{
+  text-align: center;
+  display: none;
+}
+
+p
+{
+  text-align: center;
+  color: darkred;
+}
+
+mark
+{
+  color: white;
+  background-color: black;
+}
+
+#q6
+{
+  display: none;
+}

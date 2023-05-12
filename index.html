@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/64/birthday-cake.png">
     <title>Ищи, а потом расскажешь.</title>
 </head>
 <body>
-    
+    <video autoplay loop muted class="bgvideo">
+        <source id="vid" src="RDDH_Part1.mov" type="video/mp4">
+    </video>
+
+    <div id="mainform">
+        <audio controls="controls" autoplay>
+            <source src="back_music.mp3" type="audio/wav">
+        </audio>
+
+        <fieldset id="q1">
+            <label for="codeword1">Кодовое слово введи, а?</label>
+            <input placeholder="Спроси у Влада..." type="text" class="controlsForm" id="codeword1" name="codeword1">
+            <button type="button" id="qb1">Ответить</button>
+        </fieldset>
+        
+        <fieldset id="q2">
+            <label for="codeword2">Я забыл имя персонажа, <br>у которого фамилия дико похожа на машину с массой 1980 тонн.</label>
+            <input class="controlsForm" id="codeword2" name="codeword2">
+            <button type="button" id="qb2">Ответить</button>
+        </fieldset>
+
+        <fieldset id="q3">
+            <image src="task.png">
+            <label id="hint" for="codeword3">Стоит взглянуть на алфавит...</label>
+            <input class="controlsForm" id="codeword3" name="codeword3">
+            <button type="button" id="qb3">Ответить</button>
+        </fieldset>
+
+        <fieldset id="q4">
+            <label for="codeword4">Причёска как у него, но где корги?</label>
+            <input class="controlsForm" id="codeword4" name="codeword4">
+            <button type="button" id="qb4">Ответить</button>
+        </fieldset>
+
+        <fieldset id="q5">
+            <label for="codeword5">Как думаешь, что здесь было загадано: Рустам, матсуР, русский, русак</label>
+            <label id="hint5" for="codeword5"></label>
+            <input class="controlsForm" id="codeword5" name="codeword5">
+            <button type="button" id="qb5">Ответить</button>
+        </fieldset>
+
+        <fieldset id="q6">
+            <p>С днём рождения, брат!..</p>
+            <p>Купон на вознаграждение: <mark>12923</mark></p>
+            <button id="send" class="controlsForm">Жми и не беспокойся, лучше оставь это для своей любви...</button>       
+        </fieldset>
+        
+    </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
